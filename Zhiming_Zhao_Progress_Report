@@ -1,12 +1,18 @@
-Zhiming Zhao SID:660173878
+Zhiming Zhao SID:006173878
 
 Project reports
 ----------------------------------------------------------------------------------------------
 Progress Report 2
 2/17
+Set the target object as a prefab so it can be duplicated as many times as needed
+Created the script for target respawn continuously
+Linked the prefab and the script in TargetControl object
+Adjusted the repawn time of the object
+Adjusted the range of repawning the object
 
 2/15
-
+Created the first scene call "Reflex Mode"
+Created some game objects like target, score
 
 2/10
 Scripted the fundamental code for the game
