@@ -8,7 +8,8 @@ Progress Report 3
 3/1
 Created the UI for "Reflex Mode".
 Created the script for the pause main menu. When the player press "escape" the pause main menu
-will pop up and the time scale will set to 0.
+will pop up and the time scale will set to 0. The player can either choose to go back to the game,
+or back to the main menu.
 
 2/24
 Created the UI for the main menu scene. It contains buttons that directly player to different
