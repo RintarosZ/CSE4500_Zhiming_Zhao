@@ -5,6 +5,13 @@ Project reports
 ----------------------------------------------------------------------------------------------
 
 Progress Report 3
+3/3
+Set the UI canvas to fixed size of 1024x1024 for both in-game UI and main menu UI.
+Created the script "TargetSelfControl." Now the player can use left click on the mouse to destroy the target.
+Researched on how the main camera works since I countered a problem that sometimes clicking the target won't destroy them.
+Adjusted the camera depth and field of view, now player will always destroy the target when they clicked the target.
+Planning on doing a grade calculation script for next few weeks.
+
 3/1
 Created the UI for "Reflex Mode".
 Created the script for the pause main menu. When the player press "escape" the pause main menu
