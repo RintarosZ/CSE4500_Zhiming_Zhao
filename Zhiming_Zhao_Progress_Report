@@ -2,12 +2,30 @@ Zhiming Zhao SID:006173878
 
 Project reports
 
+TO DO:
+Figure out how to calculate the speed, and adjust the target spawning time
+Figure out how to change the target size accordingly to the duration time on screen.
+
 ----------------------------------------------------------------------------------------------
 
 Progress Report 4
+3/17
+Set the target to get deleted when player clicks the target. Therefore, it helps to save memory when large amount of targets
+had been spawned.
+Edited the script so when the player hits a target, he got +1000 score and hits +1. Whenever he clicked, shots +1. After that
+the accuracy will be calculated base on = hits / shots. The total score will be = score * accuracy, which prevents player clicking
+all the time because low accuracy will result a low score.
+Edited the UI for "Challenge Mode", now there's a text object "Speed: " shows how many targets per second are spawning. Which indicated the current
+level of difficulty.
+Researched on how to use mesh TextMeshPro instead of normal text in the script.
+
 3/10
+Create the script for "Chanllenge Mode" to control the target spawning time to a linear time, also set target will
+keep spawning unless player triggered gameover.
 
 3/8
+Created the "Challenge Mode", in this mode, as the time goes, the difficultly will increase. A play will have 3 bars of
+health, whenever he missed a target, health -1, gameover when health bar = 0.
 
 ----------------------------------------------------------------------------------------------
 
@@ -71,3 +89,4 @@ Came up the idea that I wanted to make a video game that can be played on websit
 Was doing research on the capacity of the web game since web game cannot be over size.
 Setup my Github since this is my first time using Github.
 ----------------------------------------------------------------------------------------------
+
