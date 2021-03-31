@@ -4,15 +4,21 @@ Project reports
 
 TO DO:
 Figure out how to calculate the speed, and adjust the target spawning time
-Figure out how to change the target size accordingly to the duration time on screen.
 
 ----------------------------------------------------------------------------------------------
 
 Progress Report 5
 3/28
+Edited the decrement speed of the target generation. At the start of the game, the decrement is 0.02f--. 1 minute after, the decrement become
+0.002f-- since the game is already very hard at that time. Therefore, the player will not instantly die in the late games.
+Edited the targetSelfControl script so the target size will change related to the time of being exist. I set the frame count = 100,
+so the animation of the increasing size of target will be very smooth.
+To be honest, I didn't do much since there's 3 midterms going on this week so I will do more on the following week after spring break.
 
 3/22
-
+Added a preparation time phrase before the game starts. Now when player clicks "Start" or "Restart", he will get a 3 second preparation time counting
+down from "Get Ready", "3", "2", "1", "Go".
+Edited the tagertGenernator script so the range of random target genernation will be smaller so the target will only appear inside of the grids.
 
 ----------------------------------------------------------------------------------------------
 
