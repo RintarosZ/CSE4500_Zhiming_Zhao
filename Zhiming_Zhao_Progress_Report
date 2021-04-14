@@ -7,6 +7,16 @@ Figure out how to calculate the speed, and adjust the target spawning time
 
 ----------------------------------------------------------------------------------------------
 
+Progress Report 6
+4/12
+
+
+4/5
+
+
+----------------------------------------------------------------------------------------------
+
+
 Progress Report 5
 3/28
 Edited the decrement speed of the target generation. At the start of the game, the decrement is 0.02f--. 1 minute after, the decrement become
