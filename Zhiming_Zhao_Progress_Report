@@ -3,16 +3,27 @@ Zhiming Zhao SID:006173878
 Project reports
 
 TO DO:
-~~Figure out how to calculate the speed, and adjust the target spawning time~~
+Show a +1000 text whenever the player hits a target in Challenge Mode. Then delete the text after 0.5s.
+Add sound effects to the prefeb, buttons.
+Give options to players about how many targets they want in Reaction Mode.
 
 ----------------------------------------------------------------------------------------------
 
 Progress Report 6
 4/12
+Fixed the bug where if a player don't hit the target before next target spawns, two targets will stack together
+which effects the total reaction time. Now the first target will self destroyed before second target spawns.
+Fixed the "time" is not showing correctly because scripts are not linked properly.
 
-
-4/5
-
+4/7
+Added the new target prefab for new scene "Reaction Mode."
+Added the new scene called "Reaction Mode." In the mode, the player will need to hit the target as fast as
+he can, then the time that he spent will be recorded. After 5 times, the average reaction time will be
+calculated by totaltime / 5.
+Added the new script call ReactionModeControl, it basically controls the whole scene, including buttons, UI,
+and spawning targets.
+Added the new script ReactionModeTarget, it record the time between spawn and destory, then send the time
+to ReactionModeControl for the result calculation.
 
 ----------------------------------------------------------------------------------------------
 
