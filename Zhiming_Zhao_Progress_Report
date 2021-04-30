@@ -4,15 +4,16 @@ Project reports
 
 TO DO:
 Add sound effects to the prefeb, buttons.
-Give options to players about how many targets they want in Reaction Mode.
+Output the game
 
 ----------------------------------------------------------------------------------------------
 
 Progress Report 7
 4/26
 Added new prefab call reactScoreCanvas and reactScoreHolder for Reaction Mode.
-Added the script for the reactScoreHolder. It shows the current react time to the player after he hits the target.
+Added the script for the reactScoreHolder. It shows the current reaction time to the player after he hits the target.
 The reactScoreHolder will be self destoryed after 1 second.
+Edited the menu scene and connected all the scenes.
 
 4/19
 Added new prefab call scoreHolder for Challenge Mode.
