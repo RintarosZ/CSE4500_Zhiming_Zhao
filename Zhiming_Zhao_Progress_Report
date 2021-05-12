@@ -5,6 +5,18 @@ Project reports
 TO DO:
 Add sound effects to the prefeb, buttons.
 Output the game
+----------------------------------------------------------------------------------------------
+Progress Report 8
+5/10
+Added the sound for clicking a button.
+Added the sound for hovering on a button.
+Implement the sounds to all buttons in all scene.
+
+5/3
+Added the sound for hitting a target.
+Added the sound for missing a target.
+Implement the sound effects for all prefab.
+Edited the script so now the target self-destroy will delay until the sound effect ends.
 
 ----------------------------------------------------------------------------------------------
 
