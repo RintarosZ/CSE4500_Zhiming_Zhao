@@ -2,12 +2,16 @@ Zhiming Zhao SID:006173878
 
 Project reports
 
+Future improvement maybe: 
+get the time when a player hits a target in reaction mode.
+more customization on how fast, how many targets the player wants.
 
 ----------------------------------------------------------------------------------------------
 
 Progress Report 8
 5/12
 Testing for bugs, try to crash the game, and get ready to host it online.
+Deleted unnecessary lines of code.
 
 5/10
 Added the sound for clicking a button.
